@@ -80,11 +80,11 @@ header .nav-link:hover {
 }
 
 header .row .col-md-5 {
-    padding:9.3vmin 1vmin ; 
+    padding:9.3vmin 1vmin; 
 }
 
 header .row .col-md-7 {
-    padding:22vmin 1vmin ; 
+    padding:22vmin 1vmin; 
     padding-bottom: 35vmin;
     font-family: var(--Rubik);
     color: white;
@@ -92,6 +92,7 @@ header .row .col-md-7 {
 
 header .row .col-md-5 img {
     width: 90%;
+
 }
 
 header .container .col-md-7 h6 {
@@ -381,7 +382,6 @@ footer .column i + i {
     bottom: 20px;
     right: 30px;
     z-index: 99;
-    font-size: 18px;
     border: none;
     outline: none;
     background-color: tomato;

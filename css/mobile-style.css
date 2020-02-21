@@ -3,6 +3,11 @@
         padding-left: 1rem;
     }
 
+    header .row .col-md-5 img {
+        padding-top: 100px;
+        
+    }
+
     .section-1 .row .col-md-6 .panel {
         position: initial;
         width: initial;
@@ -59,8 +64,21 @@
 
 
 @media only screen and (max-width: 425px){
+    div .col-md-7 .col-sm-12 {
+        margin: 0 !important;
+    }
+
+    header .row .col-md-5 img {
+        padding-top: 0;
+        
+    }
+
     footer .row .col-md-2 {
         margin-top: 8vmin;
+    }
+
+    .fa-3x {
+        font-size: 10%;
     }
 }
 
