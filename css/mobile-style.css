@@ -82,12 +82,16 @@
     }
 }
 
-@media only screen and (max-width: 320px) {
+@media only screen and (max-width: 380px) {
     .section-4 .card {
         width: 18rem;
     }
 
     .section-4 .carousel-inner {
         margin-left: -14vmin;
+    }
+
+    .fa-3x {
+        font-size: 50%;
     }
 }
